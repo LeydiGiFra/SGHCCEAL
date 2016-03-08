@@ -50,17 +50,17 @@
                     <asp:HyperLink runat="server" ID="RegisterHyperLink" ViewStateMode="Disabled"></asp:HyperLink>
                 </p>
                 <p>
-                    <%-- Enable this once you have account confirmation enabled for password reset functionality
+                    Enable this once you have account confirmation enabled for password reset functionality
                     <asp:HyperLink runat="server" ID="ForgotPasswordHyperLink" ViewStateMode="Disabled">Forgot your password?</asp:HyperLink>
-                    --%>
                 </p>
             </section>
         </div>
 
         <div class="col-md-4">
-            <section id="socialLoginForm">
-                <uc:OpenAuthProviders runat="server" ID="OpenAuthLogin" />
-            </section>
+                <section id="socialLoginForm">
+                    <uc:OpenAuthProviders runat="server" ID="OpenAuthLogin" />
+                </section>
         </div>
+
     </div>
 </asp:Content>
